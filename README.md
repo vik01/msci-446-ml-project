@@ -1,4 +1,4 @@
-##MSCI 446 - Final Project
+## MSCI 446 - Final Project
 
 This is our final project for the MSCI 446 - Introduction to Machine Learning.
 
