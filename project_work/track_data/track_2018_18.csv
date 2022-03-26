@@ -1,0 +1,16 @@
+,race_id,Time,Status,Message
+0,1006,0 days 00:07:15.932000,1,AllClear
+1,1006,0 days 00:34:13.429000,2,Yellow
+2,1006,0 days 00:34:31.993000,1,AllClear
+3,1006,0 days 00:34:48.262000,2,Yellow
+4,1006,0 days 00:35:04.962000,1,AllClear
+5,1006,0 days 00:38:06.453000,2,Yellow
+6,1006,0 days 00:38:16.838000,1,AllClear
+7,1006,0 days 00:48:09.923000,2,Yellow
+8,1006,0 days 00:48:10.804000,1,AllClear
+9,1006,0 days 00:48:11.032000,2,Yellow
+10,1006,0 days 00:48:25.059000,1,AllClear
+11,1006,0 days 00:48:36.446000,2,Yellow
+12,1006,0 days 00:50:23.873000,6,VSCDeployed
+13,1006,0 days 00:53:07.612000,7,VSCEnding
+14,1006,0 days 00:53:22.469000,1,AllClear

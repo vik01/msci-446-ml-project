@@ -1,0 +1,11 @@
+,race_id,Time,Status,Message
+0,1029,0 days 00:00:00,1,AllClear
+1,1029,0 days 00:42:23.641000,2,Yellow
+2,1029,0 days 00:42:30.955000,1,AllClear
+3,1029,0 days 01:37:05.268000,2,Yellow
+4,1029,0 days 01:38:43.182000,4,SCDeployed
+5,1029,0 days 01:48:57.038000,1,AllClear
+6,1029,0 days 01:57:18.072000,4,SCDeployed
+7,1029,0 days 02:03:13.891000,1,AllClear
+8,1029,0 days 02:04:43.624000,2,Yellow
+9,1029,0 days 02:04:51.254000,1,AllClear
