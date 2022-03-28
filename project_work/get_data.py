@@ -133,6 +133,9 @@ def get_weather_and_track_data():
                         red_flag_count += 1
                     elif status == '4':
                         safety_car_count += 1
+                        
+                if year == 2021 and race_id == 1:
+                    actual_race_id = 1051
         
                 track_data_frame = pd.DataFrame(data = [[actual_race_id, year, race_id, ambient_air_pressure, humdity, track_temp, wind_speed, rain_fall, red_flag_count, safety_car_count]], 
                                                 columns = ['Race Id', 'Year', 'GP', 'Pressure', 'Humidity', 'TrackTemp', 'WindSpeed', 'Rainfall', 'Number of Red Flags', 'Number of Safety cars deployed'])
@@ -140,7 +143,7 @@ def get_weather_and_track_data():
             
                 actual_race_id = actual_race_id + 1
                 
-    track_data_finalized.to_csv("project_work/finalized_data/track_and_weather_data_version2.csv")
+    track_data_finalized.to_csv("project_work/finalized_data/track_and_weather_data.csv")
 
 
 get_weather_and_track_data()
