@@ -136,6 +136,9 @@ def get_weather_and_track_data():
                         
                 if year == 2021 and race_id == 1:
                     actual_race_id = 1051
+                    
+                if actual_race_id == 1068:
+                    actual_race_id = 1069
         
                 track_data_frame = pd.DataFrame(data = [[actual_race_id, year, race_id, ambient_air_pressure, humdity, track_temp, wind_speed, rain_fall, red_flag_count, safety_car_count]], 
                                                 columns = ['Race Id', 'Year', 'GP', 'Pressure', 'Humidity', 'TrackTemp', 'WindSpeed', 'Rainfall', 'Number of Red Flags', 'Number of Safety cars deployed'])
