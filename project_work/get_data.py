@@ -102,7 +102,7 @@ def get_weather_and_track_data():
                                                  'TrackTemp', 'WindSpeed', 'Rainfall', 'Number of Red Flags', 
                                                  'Number of Safety cars deployed'])
     actual_race_id = 989
-    rain_percentage_during_race = 0.6
+    rain_percentage_during_race = 0.3
     
     for year in (2018, 2019, 2020, 2021):
         for race_id in range(1, 23, 1):
