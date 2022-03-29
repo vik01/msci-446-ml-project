@@ -146,7 +146,7 @@ def get_weather_and_track_data():
             
                 actual_race_id = actual_race_id + 1
                 
-    track_data_finalized.to_csv("project_work/finalized_data/track_and_weather_data.csv")
+    track_data_finalized.to_csv("project_work/finalized_data/finalized_data_csv/track_and_weather_data.csv")
 
 
 get_weather_and_track_data()
