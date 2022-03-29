@@ -1,4 +1,4 @@
-constructorStandingsId,raceId,constructorId,constructor_name,points,position,wins,constructor_nationality
+constructorStandingsId,race_id,constructorId,constructor_name,points,position,wins,constructor_nationality
 26933,989,6,Ferrari,40,1,1,Italian
 26934,989,131,Mercedes,22,2,0,German
 26935,989,9,Red Bull,20,3,0,Austrian
