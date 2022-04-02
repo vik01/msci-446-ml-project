@@ -1,4 +1,4 @@
-raceId,driverId,constructorId,positionOrder
+race_id,driver_id,constructor_id,positionOrder
 989,20,6,1
 989,1,131,2
 989,8,6,3
