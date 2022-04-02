@@ -1,4 +1,4 @@
-raceId,driverId,stop,lap,time,duration,milliseconds
+race_id,driver_id,stop,lap,time,duration,milliseconds
 1073,1,1,14,17:24:04,21.595,21595
 1072,1,1,10,20:49:49,20.58,20580
 1072,1,2,13,20:58:32,16:35.9,995856
