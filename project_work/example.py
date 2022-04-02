@@ -58,6 +58,15 @@ def testing_weather_data(race_session):
 
 
 # Calling the methods above
-race = ff1.get_session(2018, 3, 'R')
-#testing_track_data(race)
-testing_weather_data(race)
+# race = ff1.get_session(2018, 3, 'R')
+# testing_track_data(race)
+# testing_weather_data(race)
+
+
+race_results = pd.read_csv('project_work/finalized_data/finalized_data_csv/finalized_race_results.csv')
+
+nationality_url = 'project_work/finalized_data/finalized_data_csv/nationality_country_conversion.csv'
+nationality_data = pd.read_csv(nationality_url)
+nationality_results = race_results.merge(nationality_data, how = 'outer', on = 'constructor_nationality')
+nationality_results.head
+#nationality_results.to_csv('race_nationality_results.csv')
